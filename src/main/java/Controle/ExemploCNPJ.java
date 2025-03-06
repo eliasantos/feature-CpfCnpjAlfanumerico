@@ -18,7 +18,7 @@ public class ExemploCNPJ {
 			System.out.printf("%s\n", ValidaCNPJ.imprimeCNPJ(CNPJ));
 			System.out.println("Cnpj válido");
 		} else {
-			System.out.printf("Erro, CNPJ inválido !!!\n");
+			System.out.printf("Erro, CNPJ inválido !!!\n"); 
 		}
 	}
 
