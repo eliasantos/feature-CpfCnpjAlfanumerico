@@ -6,7 +6,7 @@ public class ValidaCNPJ {
 
 	public static boolean isCNPJ(String CNPJ) {
 		
-// Remove caracteres especiais, mantendo apenas letras e números
+// Remove caracteres especiais, mantendo apenas letras e números 
 	    CNPJ = CNPJ.replaceAll("[^a-zA-Z0-9]", "");
 		
 // considera-se erro CNPJ's formados por uma sequencia de numeros iguais

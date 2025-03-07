@@ -7,7 +7,7 @@ public class ExemploCNPJ {
 	public static void main(String[] args) {
 	    Scanner ler = new Scanner(System.in);
 
-	    System.out.printf("Informe um CNPJ: ");
+	    System.out.printf("Informe um CNPJ: "); 
 	    String CNPJ = ler.next();
 
 	    // Remover apenas caracteres especiais, mantendo letras e números
